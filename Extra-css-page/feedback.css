@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+    div, ul ,li, h1, h2,h3,h4,h5,h6 , span{
+      margin: 0;
+      padding: 0;
+    }
+    ul, li {
+      list-style: none;
+    }
+    a{
+      text-decoration: none !important;
+    }
+  
+    .navbar-toggler{
+      border: none !important;
+      outline: none;
+    }
+    .navbar-toggler:focus{
+      box-shadow: none !important;
+      outline: none;
+    }
+    .navbar-toggler:active{
+      box-shadow: none;
+      outline: none;
+    }
+  header{
+    background: darkcyan;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  }
+  .nav-link:hover{
+    color: #4CAF50 !important;
+  }
+  /* navbar ends here */
+
+/* main section starts here */
+.feedback{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.199),black) , url(../Image/feedback.png);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  
+}
+
+@media (max-width: 768px) {
+  .feedback{
+    margin-top: 60px;
+  }
+}
+
+@media (min-width:769px){
+  .feedback{
+    margin-top: 60px;
+  }
+}
+.feedmsg{ 
+  background: rgba(128, 128, 128, 0.432);
+  /* backdrop-filter: blur(10px); */
+  margin-bottom: 20px !important;
+  border-radius: 10px;
+} 
+.feedback h1{
+  font-family: monospace;
+  color: rgba(188, 250, 0, 0.956);
+}
+textarea{
+  resize: none;
+}
+.feedback p{
+  font-size: 22px;
+  color: bisque;
+}
+.feedback h3{
+  font-size: 40px;
+  color: #37bd3c;
+
+}
+
+/* main section ends here */
+
+
+ /* footer section starts here */
+  
+  footer{
+    background-color: rgba(2, 27, 27, 0.759);
+    color: rgb(255, 255, 255);
+    padding: 20px 0px;
+  }
+  footer p{
+    margin-bottom: 5px !important;
+  }
+  footer a{
+    color: rgba(172, 255, 47, 0.712);
+    font-size: 18px;
+    font-weight: 600;
+  }
+  footer a:active, footer a:hover{
+    color: white;
+  }
+  
+  footer .q-link{
+    background: transparent;
+    /* padding: 5px 8px; */
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    align-content: center;
+    transition: 0.3s;
+  }
+  footer .fb:hover{
+    background: rgba(0, 0, 255, 0.438);
+  }
+  footer .yt:hover{
+    background: white;
+    color: red;
+  }
+  footer .gh:hover{
+    background: white;
+    color: rgb(52, 51, 53);
+  }
+  footer .link:hover{
+    background: white;
+    color: rgb(49, 38, 38);
+  }
+  
+  footer .f-info{
+    color: rgb(153, 150, 150);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  footer .f-info:hover{
+    color: rgb(192, 112, 88);
+  }
